@@ -46,11 +46,11 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onContentChanged(Object content) {
         String text;
-        Integer backgroundColor;
+        Integer backgroundColor = null;
         if (content != null) {
           EstimoteCloudBeaconDetails beaconDetails = (EstimoteCloudBeaconDetails) content;
           text = "You're in " + beaconDetails.getBeaconName() + "'s range!";
-          backgroundColor = BACKGROUND_COLORS.get(beaconDetails.getBeaconColor());
+
         } else {
           text = "No beacons in range.";
           backgroundColor = null;
