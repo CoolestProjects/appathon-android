@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 import com.estimote.sdk.SystemRequirementsChecker;
+import com.estimote.sdk.cloud.model.BeaconInfo;
 import com.estimote.sdk.cloud.model.Color;
 import com.test.testbeacon.estimote.BeaconID;
 import com.test.testbeacon.estimote.EstimoteCloudBeaconDetails;
@@ -12,6 +14,7 @@ import com.test.testbeacon.estimote.EstimoteCloudBeaconDetailsFactory;
 import com.test.testbeacon.estimote.ProximityContentManager;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,11 +32,16 @@ public class MainActivity extends AppCompatActivity {
   private static final int BACKGROUND_COLOR_NEUTRAL = android.graphics.Color.rgb(160, 169, 172);
 
   private ProximityContentManager proximityContentManager;
+  private List<BeaconsModel.Beacon> beaconsList;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+
+
+    beaconsList = (List<BeaconsModel.Beacon>) getIntent().getSerializableExtra("beacons");
+
 
     proximityContentManager = new ProximityContentManager(this,
         Arrays.asList(
@@ -45,11 +53,14 @@ public class MainActivity extends AppCompatActivity {
     proximityContentManager.setListener(new ProximityContentManager.Listener() {
       @Override
       public void onContentChanged(Object content) {
+
         String text;
         Integer backgroundColor = null;
         if (content != null) {
-          EstimoteCloudBeaconDetails beaconDetails = (EstimoteCloudBeaconDetails) content;
-          text = "You're in " + beaconDetails.getBeaconName() + "'s range!";
+          BeaconInfo beaconDetails = (BeaconInfo) content;
+          showBeaconDetected(beaconDetails);
+          text = "You're in " + beaconDetails.name + "'s range!";
+          backgroundColor = BACKGROUND_COLORS.get(beaconDetails.color);
 
         } else {
           text = "No beacons in range.";
@@ -60,6 +71,16 @@ public class MainActivity extends AppCompatActivity {
             backgroundColor != null ? backgroundColor : BACKGROUND_COLOR_NEUTRAL);
       }
     });
+  }
+
+  private void showBeaconDetected(BeaconInfo beaconDetails) {
+    for (BeaconsModel.Beacon beacon : beaconsList) {
+      if (beacon.getMajor() == beaconDetails.major && beacon.getMinor() == beaconDetails.minor && beacon.getUuid().equalsIgnoreCase(beaconDetails.uuid.toString())) {
+        Toast.makeText(this, "Task:" + beacon.getTaskName(), Toast.LENGTH_LONG).show();
+        break;
+      }
+
+    }
   }
 
   @Override
