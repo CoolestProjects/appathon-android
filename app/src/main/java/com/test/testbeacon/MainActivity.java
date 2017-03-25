@@ -55,12 +55,13 @@ public class MainActivity extends AppCompatActivity {
       public void onContentChanged(Object content) {
 
         String text;
-        Integer backgroundColor;
+        Integer backgroundColor = null;
         if (content != null) {
           BeaconInfo beaconDetails = (BeaconInfo) content;
           showBeaconDetected(beaconDetails);
           text = "You're in " + beaconDetails.name + "'s range!";
           backgroundColor = BACKGROUND_COLORS.get(beaconDetails.color);
+
         } else {
           text = "No beacons in range.";
           backgroundColor = null;
