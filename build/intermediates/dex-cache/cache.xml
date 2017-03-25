@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_c6ffd0d047006e1d942083ea7c9fb646627445a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.estimote/sdk/0.16.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b3aee285fb75f9d81f1a77e1ad9bebc7b5125ab0">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.estimote-sdk-0.16.0_8c91092357544c56170bb2c0e299126f0beb21c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/retrofit-2.2.0_89d3679bd6a214db3afb2d41f674de0a4718f103.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_e207028ba9a4bf9643e4c7de9c5c8640ebd6e9bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_d6e427b973b4385d8849731fc1398229d179eaac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0a930577ae7e9022fb3fa0a776efe9d988c064d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_f2329ec2cf6759e01e59803e1b480d17def79a4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_23d054782358ad82dbb39032b9d1d5aef9035ba9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_dea7447b34ed8e93e3cf34efde48d8a966684644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.2.0/a09926806199499a20b2f5168779499abfa33342/converter-gson-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09926806199499a20b2f5168779499abfa33342">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/converter-gson-2.2.0_b0b8e075f26f4e7063bcebdbf0776f257821a76a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_4a40337cc3ab27f3d84e1631551460101a2df8d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_855904357fe2d18457d70a632291f9a0fd03870c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_a7f45ab528429c559fe6d6f2616c6ee61c931fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_970cf105fe7ce7de8b6e69d849220b507b443bd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/gson-2.7_03fbc39f35dbdf20d665295847d188fa7e9cd583.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_3eda53fcac4010b842db6311294884159651b5c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_ba14067654510ebb0c6bebb5a3d4049e251ef668.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_429389cd37f7ed411d00eb1dbe4fe2b3fb0ed900.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_3b3b826d5b6f3e05787df7ac3d43f463892455d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/okio-1.11.0_546efe7904da290ec4a01433eafb0c2e15d61de7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/mttuser/Documents/mtt/appathon/appathon-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_c5e28f07f4bff7d14e79f3ce875b0c3fa0101e26.jar" />
+    </item>
+
+</items>

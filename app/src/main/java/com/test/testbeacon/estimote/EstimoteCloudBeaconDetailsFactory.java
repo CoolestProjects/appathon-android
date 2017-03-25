@@ -20,8 +20,7 @@ public class EstimoteCloudBeaconDetailsFactory implements BeaconContentFactory {
 
             @Override
             public void success(BeaconInfo beaconInfo) {
-                callback.onContentReady(new EstimoteCloudBeaconDetails(
-                        beaconInfo.name, beaconInfo.color));
+                callback.onContentReady(beaconInfo);
             }
 
             @Override
