@@ -1,20 +1,22 @@
+package com.test.testbeacon.model;
 
+class Gem {
+    private int greenGem = 1;
+    private int redGem = 2;
+    private int yellowGem = 3;
 
+    public Gem() {
+    }
 
-class Gem{
-	private int greenGem = 1, private int redGem = 2, private int yellowGem = 3;
-	
-	public static void Gem(){
-	}
+    public int getGreenGem() {
+        return this.greenGem;
+    }
 
-	public static int getGreenGem(){
-		return this.greenGem;
-	}
-	public static int getRedGem(){
-		return this.redGem;
-	}
-	
-	public static int getYellowGem(){
-		return this.yellowGem;
-	}
-};
+    public int getRedGem() {
+        return this.redGem;
+    }
+
+    public int getYellowGem() {
+        return this.yellowGem;
+    }
+}
